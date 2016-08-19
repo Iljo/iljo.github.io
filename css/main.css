@@ -1,10 +1,39 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0 auto;
+    padding: 1em 1.25em;
+    width: 90%;
+    max-width: 55em;
+    color: #292929;
+    background-color: #fcfcfc;
+    font: 1.1em/1.4 "Lato", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { font-weight: 500;margin:1em 0; }
+h1 { text-align: center; font-weight: 700; font-size: 2.15em; }
+h1.words { color: #DB2C17; }
+h1.link .desc { font-weight: normal; color: #000; }
+h2 { margin: 1.5em 0 -0.5em 0; font-size: 1.5em; color: #000; }
+h3 { margin: 1.5em 0 -0.75em 0; font-size: 1.275em; color: #333; }
+/* h3 a, h3 a:visited, h2 a, h2 a:visited{ color:#000; } */
+/* h3 a:hover, h2 a:hover{ color:#000; border:none; } */
+h4 { font-size: 1.115em; font-weight: normal; color: #000; }
+h5 { font-size: 1em; } 
+h6 { font-size: .875em; }
+
+.post-title {
+    margin: 1em 0 -0.25em 0; 
+}
+.post-date {
+    margin-bottom: 3.5em; 
+    text-align: center;
+}
+
+
+nav {
+    border-bottom: 1px solid #d5d5d5;
+}
 nav ul, footer ul {
-    padding: 0px;
+    padding: 0;
     list-style: none;
     font-weight: bold;
 }
@@ -12,18 +41,24 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+nav ul{
+    text-align: center;
+}
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #2382c8;
 }
 a:hover {
-    text-decoration: underline;
+    color: #1b6498;
 }
 
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+footer a {
+    color: #888;
 }
 
 ul.posts { 
@@ -31,4 +66,9 @@ ul.posts {
 }
 ul.posts li {
     list-style: none;
+}
+
+.meta {
+    color: #888;
+    font-size: 0.875em;
 }
