@@ -5,7 +5,7 @@ body {
     max-width: 55em;
     color: #292929;
     background-color: #fcfcfc;
-    font: 1.1em/1.4 "Lato", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    font: 1.05em/1.4 "Lato", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { font-weight: 500;margin:1em 0; }
