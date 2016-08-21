@@ -5,14 +5,14 @@ body {
     max-width: 55em;
     color: #292929;
     background-color: #fcfcfc;
-    font: 1.05em/1.4 "Lato", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    font: 1.0em/1.4 "Lato", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { font-weight: 500;margin:1em 0; }
 h1 { text-align: center; font-weight: 700; font-size: 2.15em; }
 h1.words { color: #DB2C17; }
 h1.link .desc { font-weight: normal; color: #000; }
-h2 { margin: 1.5em 0 -0.5em 0; font-size: 1.5em; color: #000; }
+h2 { margin: 1.5em 0 -0.5em 0; font-size: 1.45em; color: #000; }
 h3 { margin: 1.5em 0 -0.75em 0; font-size: 1.275em; color: #333; }
 /* h3 a, h3 a:visited, h2 a, h2 a:visited{ color:#000; } */
 /* h3 a:hover, h2 a:hover{ color:#000; border:none; } */

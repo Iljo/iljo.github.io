@@ -4,7 +4,7 @@ title: "Something different not"
 date: 2016-08-14
 ---
 
-This is something different, nooooooooooottttt!
+This is something different, well not! Something different again
 
 
 ## What is Lorem Ipsum?
